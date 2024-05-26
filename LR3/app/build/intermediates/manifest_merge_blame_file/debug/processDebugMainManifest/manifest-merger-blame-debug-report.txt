@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lr3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/blinomes/.gradle/caches/transforms-4/766f3bb77a9602d5b18720e866ffb26d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.lr3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/blinomes/.gradle/caches/transforms-4/766f3bb77a9602d5b18720e866ffb26d/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/blinomes/.gradle/caches/transforms-4/766f3bb77a9602d5b18720e866ffb26d/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.lr3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/blinomes/.gradle/caches/transforms-4/766f3bb77a9602d5b18720e866ffb26d/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/blinomes/.gradle/caches/transforms-4/766f3bb77a9602d5b18720e866ffb26d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:5:5-26:19
+18        android:allowBackup="true"
+18-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:6:13-39
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/blinomes/.gradle/caches/transforms-4/766f3bb77a9602d5b18720e866ffb26d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:7:13-69
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:8:13-58
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:9:13-47
+25        android:label="@string/app_name"
+25-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:10:13-45
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:11:13-58
+27        android:supportsRtl="true"
+27-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:12:13-39
+28        android:testOnly="true"
+29        android:theme="@style/Theme.LR3" >
+29-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:13:13-45
+30        <activity
+30-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:15:9-25:20
+31            android:name="com.example.lr3.MainActivity"
+31-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:16:17-45
+32            android:exported="true"
+32-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:17:17-40
+33            android:label="@string/app_name"
+33-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:18:17-49
+34            android:theme="@style/Theme.LR3" >
+34-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:19:17-49
+35            <intent-filter>
+35-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:20:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:21:17-68
+36-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:23:17-76
+38-->/Users/blinomes/IdeaProjects/LR3/app/src/main/AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/blinomes/.gradle/caches/transforms-4/5ce76cd183daff386edb000795ef88d8/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/blinomes/.gradle/caches/transforms-4/5ce76cd183daff386edb000795ef88d8/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+44            android:authorities="com.example.lr3.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/blinomes/.gradle/caches/transforms-4/5ce76cd183daff386edb000795ef88d8/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/blinomes/.gradle/caches/transforms-4/5ce76cd183daff386edb000795ef88d8/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/blinomes/.gradle/caches/transforms-4/5ce76cd183daff386edb000795ef88d8/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/blinomes/.gradle/caches/transforms-4/5ce76cd183daff386edb000795ef88d8/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.2.0] /Users/blinomes/.gradle/caches/transforms-4/5ce76cd183daff386edb000795ef88d8/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/blinomes/.gradle/caches/transforms-4/43d8faff71e86e06f44fd796db7b0e05/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/blinomes/.gradle/caches/transforms-4/43d8faff71e86e06f44fd796db7b0e05/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/blinomes/.gradle/caches/transforms-4/43d8faff71e86e06f44fd796db7b0e05/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>

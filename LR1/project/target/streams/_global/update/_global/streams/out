@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/Users/blinomes/IdeaProjects/ТРПО,%20ЛР№1,%20АПИМ-23,%20Ковбасюк/LR1/project/"), "lr1-build")...[0m
+[0m[[0m[33mwarn[0m] [0m[0mUnrecognized repository Scala Plugin Bundled Repository, ignoring it[0m
+[0m[[0m[33mwarn[0m] [0m[0mUnrecognized repository Scala Plugin Bundled Repository, ignoring it[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/Users/blinomes/IdeaProjects/ТРПО,%20ЛР№1,%20АПИМ-23,%20Ковбасюк/LR1/project/"), "lr1-build")[0m
